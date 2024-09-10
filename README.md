@@ -9,4 +9,4 @@ Search: Search for products by name or category.
 Cart & Checkout: Add products to cart and proceed with checkout.
 User Authentication: Register and log in to manage your account.
 Responsive Design: Optimized for both Android and iOS.
-# Shop-App
+
