@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:shop_app/home_page.dart';
 
 void main() {
@@ -15,10 +16,17 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Inter',
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Color.fromRGBO(254, 206, 1, 1),
+          seedColor: const Color.fromRGBO(254, 206, 1, 1),
+        ),
+        inputDecorationTheme: const InputDecorationTheme(
+          hintStyle: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 16,
+          ),
+          prefixIconColor: Color.fromRGBO(119, 119, 119, 1),
         ),
       ),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
