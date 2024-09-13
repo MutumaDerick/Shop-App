@@ -3,7 +3,7 @@ final products = [
     'id': '0',
     'title': 'Men\'s Nike Shoes',
     'price': 44.52,
-    'sizes': ['7', '8', '9', '10', '11'],
+    'sizes': [7, 8, 9, 10, 11],
     'imageUrl': 'assets/images/shoes_1.png',
     'company': 'Nike',
   },
@@ -33,13 +33,4 @@ final products = [
   },
 ];
 
-final cart = [
-  {
-    'id': '3',
-    'title': 'Jordan Shoes',
-    'price': 420.69,
-    'imageUrl': 'assets/images/shoes_4.png',
-    'company': 'Nike',
-    'size': '8',
-  }
-];
+
